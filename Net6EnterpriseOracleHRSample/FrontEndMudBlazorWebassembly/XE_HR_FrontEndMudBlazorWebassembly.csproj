@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Common\XE_HR_Common.csproj" />
+	  <ProjectReference Include="..\FrontEndHttpClient\XE_HR_FrontEndHttpClient.csproj" />
+	  <ProjectReference Include="..\FrontEndSignalRWebsocketClient\XE_HR_FrontEndSignalRWebsocketClient.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
+		<PackageReference Include="Blazored.SessionStorage" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.12" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.12" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.12" />
+		<PackageReference Include="MudBlazor" Version="6.1.6" />
+	</ItemGroup>
+</Project>

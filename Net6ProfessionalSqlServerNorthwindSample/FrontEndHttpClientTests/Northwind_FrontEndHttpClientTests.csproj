@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackEndSqlEntities\Northwind_BackEndSqlEntities.csproj" />
+    <ProjectReference Include="..\Common\Northwind_Common.csproj" />
+    <ProjectReference Include="..\BackEndDatabaseClient\Northwind_BackEndDatabaseClient.csproj" />
+    <ProjectReference Include="..\BackEndCommon\Northwind_BackEndCommon.csproj" />
+    <ProjectReference Include="..\BackEndCommonTests\Northwind_BackEndCommonTests.csproj" />
+    <ProjectReference Include="..\BackEndDatabaseClientTests\Northwind_BackEndDatabaseClientTests.csproj" />
+    <ProjectReference Include="..\Common\Northwind_Common.csproj" />
+    <ProjectReference Include="..\FrontEndHttpClient\Northwind_FrontEndHttpClient.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />    
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />    
+    <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
+  </ItemGroup>  
+  <ItemGroup>
+    <None Update="appSettings.Test.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

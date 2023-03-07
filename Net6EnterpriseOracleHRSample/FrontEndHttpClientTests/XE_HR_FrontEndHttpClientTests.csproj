@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BackEndDatabaseClient\XE_HR_BackEndDatabaseClient.csproj" />
+    <ProjectReference Include="..\BackEndCommon\XE_HR_BackEndCommon.csproj" />
+    <ProjectReference Include="..\BackEndCommonTests\XE_HR_BackEndCommonTests.csproj" />
+    <ProjectReference Include="..\BackEndDatabaseClientTests\XE_HR_BackEndDatabaseClientTests.csproj" />
+    <ProjectReference Include="..\Common\XE_HR_Common.csproj" />
+    <ProjectReference Include="..\FrontEndHttpClient\XE_HR_FrontEndHttpClient.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />  
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.18.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />    
+    <PackageReference Include="Tynamix.ObjectFiller" Version="1.5.8" />
+  </ItemGroup>  
+  <ItemGroup>
+    <None Update="appSettings.Test.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+  "name": "XE_HR_FrontEndHostedWebClient",
+  "short_name": "XE_HR_FrontEndHostedWebClient",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#03173d",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "_content/XE_HR_FrontEndMudBlazorWebassembly/assets/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.0.0
+MinimumVisualStudioVersion = 17.1.0.0
+Project("{4efb79bf-9115-4617-8cae-9240c4604958}") = "Northwind_BackEndCommon", "BackEndCommon\Northwind_BackEndCommon.csproj", "{f8a01293-bc33-4105-8906-a922ca4e750e}"
+EndProject
+Project("{4efb79bf-9115-4617-8cae-9240c4604958}") = "Northwind_BackEndHttpServer", "BackEndHttpServer\Northwind_BackEndHttpServer.csproj", "{dc2d685b-9c48-48b0-bc4d-c552fdf0c02d}"
+EndProject
+Project("{4efb79bf-9115-4617-8cae-9240c4604958}") = "Northwind_BackEndDatabaseClient", "BackEndDatabaseClient\Northwind_BackEndDatabaseClient.csproj", "{39ec1644-be90-45ce-8775-90be179a639e}"
+EndProject
+Project("{4efb79bf-9115-4617-8cae-9240c4604958}") = "Northwind_BackEndSqlEntities", "BackEndSqlEntities\Northwind_BackEndSqlEntities.csproj", "{7f4d5c14-219c-414e-9ba6-4d317c188c1b}"
+EndProject
+Project("{4efb79bf-9115-4617-8cae-9240c4604958}") = "Northwind_FrontEndHttpClient", "FrontEndHttpClient\Northwind_FrontEndHttpClient.csproj", "{406d454c-f824-409f-a989-3e0192b22088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f8a01293-bc33-4105-8906-a922ca4e750e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f8a01293-bc33-4105-8906-a922ca4e750e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dc2d685b-9c48-48b0-bc4d-c552fdf0c02d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dc2d685b-9c48-48b0-bc4d-c552fdf0c02d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ec1644-be90-45ce-8775-90be179a639e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ec1644-be90-45ce-8775-90be179a639e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7f4d5c14-219c-414e-9ba6-4d317c188c1b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7f4d5c14-219c-414e-9ba6-4d317c188c1b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406d454c-f824-409f-a989-3e0192b22088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406d454c-f824-409f-a989-3e0192b22088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92ea6e77-c7d4-47e3-880d-a15e6fcb0cdf}
+	EndGlobalSection
+EndGlobal
