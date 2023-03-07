@@ -1,5 +1,5 @@
 # Introduction
-This solution contains projects that have been generated using tooling licenced by [YouGen Software, LLC](https://yougensoft.com). These projects are intended to be used by technology professionals as a highly robust bootstrap ecosystem with the following nonexhaustive list of primary use-cases:
+This solution contains projects that have been generated using tooling licensed by [YouGen Software, LLC](https://yougensoft.com). These projects are intended to be used by technology professionals as a highly robust bootstrap ecosystem with the following nonexhaustive list of primary use-cases:
 * Rapid platforming/re-platforming/modernizing of database-centric, web-scale software ecosystems
 * Platform implementing using principles of [Clean Architecture](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)
 * Provisioning modular workflows for high testability and automation plugability
